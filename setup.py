@@ -17,7 +17,7 @@ For further information, please visit the `CairoSVG Website
 import re
 import sys
 from os import path
-
+from codecs import open
 from setuptools import setup
 
 init_path = path.join(path.dirname(__file__), 'cairosvg', '__init__.py')
